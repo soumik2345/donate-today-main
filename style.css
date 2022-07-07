@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300;1,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/donation13.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner-taxt{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner-header-text{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.banner-taxt > p{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.donate_btn{
+    margin-top: 40px;
+    background-color: white;
+    background-color: rgb(227, 44, 60);
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+
+.donate-sec{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.donate-sec > h1{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.donate-sec > p{
+    font-size: 25px;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+
+.donate-amount{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.amount-card{
+    height: 120px;
+    width: 120px;
+    background-color: gainsboro;
+    color: rgba(0, 0, 0, 0.715);
+    font-size: 30px;
+    margin-left: 30px;
+   line-height: 120px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   border-radius: 5px;
+}
+
+#select{
+    border: 3px solid orangered;
+    background-color: rgba(255, 68, 0, 0.326);
+    color: orangered;
+}
+
+.donate-form{
+    margin-top: 80px;
+}
+
+.donate-form > input{
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(1, 1, 1, 0.647);
+}
+
+.donate-form > input::placeholder{
+    text-align: center;
+}
+
+
+.donate-plan{
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.donate-plan > h1{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.donate-plan > p{
+    font-size: 25px;
+    margin-top: 40px;
+    opacity: 0.8;
+}
+
+
+.plan{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.plan-card{
+    width: 300px;
+    height: 350px;
+    text-align: left;
+    padding-left: 30px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.plan-card > img{
+    margin-top: 50px;
+}
+.plan-card > h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.plan-card > p{
+    margin-top: 30px;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+#blue{
+    background-color: rgba(0, 255, 255, 0.15);
+}
+
+
+#red{
+    background-color: rgba(247, 55, 55, 0.15);
+}
+
+#yellow{
+    background-color: rgba(252, 67, 0, 0.15);
+}
+
+
+.reason{
+    margin-top: 100px;
+}
+
+.reason_1{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.reason_1_text{
+    width: 50%;
+    margin-right: 15px;
+}
+.reason_1_text > h1{
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+.reason_1_text > p{
+    font-size: 25px;
+    margin-top: 40px;
+    opacity: 0.7;
+}
+
+.reason_1_text > button{
+    margin-top: 40px;
+    background-color: white;
+    background-color: rgb(227, 44, 60);
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+.reason_1_img{
+    width: 50%;
+}
+.reason_1_img > img{
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+}
+
+
+
+.reason_2{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.reason_2_text{
+    width: 50%;
+}
+.reason_2_text > h1{
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+.reason_2_text > p{
+    font-size: 25px;
+    margin-top: 40px;
+    opacity: 0.7;
+}
+
+.reason_2_text > button{
+    margin-top: 40px;
+    background-color: white;
+    background-color: rgb(227, 44, 60);
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+.reason_2_img{
+    width: 50%;
+    margin-right: 15px;
+}
+.reason_2_img > img{
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+}
+
+
+.update{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.update > h1{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.update > p{
+    font-size: 25px;
+    margin-top: 20px;
+    opacity: 0.8;
+    margin-bottom: 60px;
+}
+
+.update > form{
+    margin: 0 auto;
+    width: 800px;
+    height: 200px;
+    background-color: rgba(233, 71, 17, 0.211);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.update > form > input{
+    padding: 15px;
+    width: 300px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+.update > form > button{
+    padding: 15px;
+    border: none;
+    width: 150px;
+    background-color: rgb(227, 44, 60);
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+
+footer{
+    margin-top: 150px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(7, 6, 6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > .text{
+    text-align: center;
+}
+
+footer > .text > h1{
+    color: rgb(227, 44, 60);
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+}
+footer > .text > p{
+    margin-top: 30px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
